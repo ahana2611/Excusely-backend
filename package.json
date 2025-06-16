@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "bun src/index.ts",
+    "start": "bun src/index.ts"
+  },
+  "dependencies": {
+    "groq": "^3.92.0",
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.15.2",
+    "openai": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
